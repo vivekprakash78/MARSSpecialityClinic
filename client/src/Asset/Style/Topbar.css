@@ -1,0 +1,26 @@
+.topbar {
+  display: flex;
+  background-color: #f8f9fa;
+  border-bottom: 4px solid rgb(5, 126, 230);
+  box-shadow: 0 5px 10px 0 rgba(5, 126, 230, 0.5);
+  align-items: center;
+}
+.topbar .topbar-item {
+  text-align: center;
+}
+.topbar .topbar-item.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topbar .topbar-item.brand .brand-image {
+  display: inline-block;
+}
+.topbar .topbar-item.brand .brand-image img {
+  width: 30px;
+  height: 30px;
+}
+.topbar .topbar-item.brand .brand-text {
+  display: inline-block;
+  font-size: 1.75rem;
+}

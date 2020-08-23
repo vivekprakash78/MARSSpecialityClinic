@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhoneAlt,
-  faMapMarkerAlt,
   faClock,
   faBug,
+  faMapMarkedAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import "../../Asset/Style/NavbarCard.css";
 
@@ -15,7 +15,6 @@ class NavbarCard extends Component {
         <div className="navCardIcon">
           <FontAwesomeIcon
             icon={this.getIcon(this.props.info)}
-            size="lg"
             className="cardIcon"
           />
         </div>
@@ -33,7 +32,7 @@ class NavbarCard extends Component {
       case "Call":
         return faPhoneAlt;
       case "Location":
-        return faMapMarkerAlt;
+        return faMapMarkedAlt;
       case "Timing":
         return faClock;
       default:
@@ -47,7 +46,7 @@ class NavbarCard extends Component {
       case "Location":
         return "Shaguna More, Patna";
       case "Timing":
-        return "9:00AM - 5:00 PM everyday";
+        return "9:00 AM - 5:00 PM everyday";
       default:
         return "Unexpected Call";
     }
