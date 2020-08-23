@@ -1,0 +1,12 @@
+.navbar {
+  border-bottom: 4px solid #057ee6;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.navbar a {
+  font-size: 2rem;
+  align-items: center;
+  display: flex;
+}
+.navbar .nav-item {
+  display: inline-block;
+}

@@ -1,0 +1,41 @@
+html {
+  --color-primary: #057ee6;
+}
+.navbarCard {
+  border: 2px solid var(--color-primary);
+  border-radius: 500px;
+  display: flex;
+  max-width: 300px;
+  min-width: 100px;
+  margin: 5px;
+  padding: 10px;
+  padding-left: 0;
+  width: 200px;
+}
+.navbarCard:hover {
+  background-color: var(--color-primary);
+}
+.navbarCard:hover .navCardIcon {
+  border-color: white;
+}
+.navbarCard:hover .navCardText,
+.navbarCard:hover .navCardIcon .cardIcon {
+  color: white;
+}
+.navCardIcon {
+  border-right: 2px solid var(--color-primary);
+  flex: 1;
+  height: 100%;
+  margin-right: 15px;
+  margin-left: 5px;
+  padding: 10px;
+}
+.navCardText {
+  align-items: center;
+  font-size: 0.9rem;
+  display: flex;
+  flex: 5;
+}
+.cardIcon {
+  color: var(--color-primary);
+}
