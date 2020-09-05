@@ -19,6 +19,12 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "client/build")));
 
+const PORT = process.env.PORT;
+
+app.listen(PORT, () => {
+  console.log("Server is running on port " + PORT);
+});
+
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "client/build", "index.html"));
 });
@@ -38,7 +44,7 @@ app.use(function (err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.render("error");
+  res.render("404error");
 });
 
 module.exports = app;

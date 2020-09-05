@@ -24,10 +24,6 @@ class NavbarCard extends Component {
   }
 
   getIcon(info) {
-    fetch("https://api.github.com/users/hacktivist123/repos")
-      .then((response) => response.json())
-      .then((data) => console.log(data));
-
     switch (info) {
       case "Call":
         return faPhoneAlt;

@@ -9,14 +9,14 @@ class Navbar extends Component {
       <nav className="navbar sticky-top navbar-light bg-light">
         <a className="navbar-brand" href="/">
           <img
-            src="/logo512.png"
-            width="30"
-            height="30"
+            src="/logo192.png"
+            width="75"
+            height="75"
             className="d-inline-block align-top"
             alt="MARS Speciality Clinic"
             loading="lazy"
           />
-          MARS Speciality Clinic
+          Speciality Clinic
         </a>
         <ul className="nav ml-auto">
           <li className="nav-item">

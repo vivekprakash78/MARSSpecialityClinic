@@ -17,8 +17,9 @@
   display: inline-block;
 }
 .topbar .topbar-item.brand .brand-image img {
-  width: 30px;
-  height: 30px;
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
 }
 .topbar .topbar-item.brand .brand-text {
   display: inline-block;
