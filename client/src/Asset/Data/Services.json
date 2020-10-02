@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "serviceName": "Maternity & Child Care",
+    "serviceList": [
+      "Sub service 1",
+      "Sub service 2",
+      "Sub service 3",
+      "Sub service 4"
+    ]
+  },
+  {
+    "id": 2,
+    "serviceName": "Brain & Spine Surgery (Neuro)",
+    "serviceList": [
+      "Sub service 1",
+      "Sub service 2",
+      "Sub service 3",
+      "Sub service 4"
+    ]
+  },
+  {
+    "id": 3,
+    "serviceName": "Laproscopic and Gastrosurgery",
+    "serviceList": [
+      "Sub service 1",
+      "Sub service 2",
+      "Sub service 3",
+      "Sub service 4"
+    ]
+  },
+  {
+    "id": 4,
+    "serviceName": "Others",
+    "serviceList": [
+      "Sub service 1",
+      "Sub service 2",
+      "Sub service 3",
+      "Sub service 4"
+    ]
+  }
+]

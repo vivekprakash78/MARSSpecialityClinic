@@ -1,6 +1,10 @@
 #footer {
   background-color: #f8f9fa;
   border-top: 4px solid rgb(5, 126, 230);
+  min-height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .heartIcon {
   color: #ef233c;

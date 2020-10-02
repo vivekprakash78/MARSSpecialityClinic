@@ -23,9 +23,6 @@ class Navbar extends Component {
             <NavbarCard info="Call" />
           </li>
           <li className="nav-item">
-            <NavbarCard info="Timing" />
-          </li>
-          <li className="nav-item">
             <NavbarCard info="Location" />
           </li>
         </ul>

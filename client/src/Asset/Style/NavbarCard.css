@@ -1,6 +1,10 @@
 html {
   --color-primary: #057ee6;
 }
+a,
+a:hover {
+  text-decoration: none;
+}
 .navbarCard {
   border: 2px solid var(--color-primary);
   border-radius: 500px;
@@ -8,8 +12,8 @@ html {
   margin: 5px;
   padding: 10px;
   padding-left: 0;
-  width: 200px;
-  max-width: 300px;
+  width: 250px;
+  max-width: 350px;
   min-width: 100px;
 }
 .navbarCard:hover {
@@ -34,6 +38,7 @@ html {
   align-items: center;
   font-size: 0.9rem;
   display: flex;
+  justify-content: center;
   flex: 5;
 }
 .cardIcon {

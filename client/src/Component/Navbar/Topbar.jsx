@@ -20,7 +20,6 @@ class Topbar extends Component {
         <div className="col-lg-2"></div>
         <div className="topbar-item info-cards col-lg-6">
           <NavbarCard info="Call" />
-          <NavbarCard info="Timing" />
           <NavbarCard info="Location" />
         </div>
       </div>

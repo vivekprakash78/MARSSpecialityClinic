@@ -2,24 +2,30 @@ import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhoneAlt,
-  faClock,
   faBug,
   faMapMarkedAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import "../../Asset/Style/NavbarCard.css";
+import infoData from "../../Asset/Data/HospitalInfo.json";
 
 class NavbarCard extends Component {
   render() {
     return (
-      <div className="navbarCard">
-        <div className="navCardIcon">
-          <FontAwesomeIcon
-            icon={this.getIcon(this.props.info)}
-            className="cardIcon"
-          />
+      <a
+        href={this.getLink(this.props.info)}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className="navbarCard">
+          <div className="navCardIcon">
+            <FontAwesomeIcon
+              icon={this.getIcon(this.props.info)}
+              className="cardIcon"
+            />
+          </div>
+          <div className="navCardText">{this.getText(this.props.info)}</div>
         </div>
-        <div className="navCardText">{this.getText(this.props.info)}</div>
-      </div>
+      </a>
     );
   }
 
@@ -29,23 +35,25 @@ class NavbarCard extends Component {
         return faPhoneAlt;
       case "Location":
         return faMapMarkedAlt;
-      case "Timing":
-        return faClock;
       default:
         return faBug;
     }
   }
-  getText(info) {
-    switch (info) {
-      case "Call":
-        return "+91 12345 12345";
-      case "Location":
-        return "Shaguna More, Patna";
-      case "Timing":
-        return "9:00 AM - 5:00 PM everyday";
-      default:
-        return "Unexpected Call";
-    }
+  getText(infoKey) {
+    var info = infoData.find((item) => {
+      return item.infoName === infoKey;
+    });
+    if (info) {
+      return info.infoValue;
+    } else return "You found a bug!!";
+  }
+  getLink(infoKey) {
+    var info = infoData.find((item) => {
+      return item.infoName === infoKey;
+    });
+    if (info) {
+      return info.infoLink;
+    } else return "You found a bug!!";
   }
 }
 
