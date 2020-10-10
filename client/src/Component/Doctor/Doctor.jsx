@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../../Asset/Style/ContentSection.css";
 import Card from "../Card/ProfileCard";
 import doctorsData from "../../Asset/Data/Doctors.json";
 

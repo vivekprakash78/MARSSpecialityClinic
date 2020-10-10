@@ -4,12 +4,16 @@ import "../../Asset/Style/Jumbotron.css";
 class Jumbotron extends Component {
   render() {
     return (
-      <div className="jumbotron jumbotron-fluid">
-        <div className="container">
-          <h1 className="display-4">MARS Speciality Clinic</h1>
-          <p className="lead">Passion for Cure</p>
+      <div class="jumbo">
+        <div className="jumbo-image">
+
+        </div>
+        <div className="jumbo-text">
+          <h2 className="text">MARS Speciality Clinic</h2>
+          <h5 className="sub-text">Passion for Cure</h5>
         </div>
       </div>
+
     );
   }
 }

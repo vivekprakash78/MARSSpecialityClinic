@@ -6,7 +6,6 @@ import Jumbotron from "./Component/Jumbotron/Jumbotron";
 import Service from "./Component/Service/Service";
 import Doctor from "./Component/Doctor/Doctor";
 import Footer from "./Component/Footer/Footer";
-
 function App() {
   return (
     <React.Fragment>
