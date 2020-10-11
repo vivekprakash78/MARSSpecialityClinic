@@ -6,14 +6,14 @@ import { faBaby, faBrain, faBug, faHospitalUser, faProcedures } from "@fortaweso
 class Card extends Component {
   render() {
     return (
-      <div class="media block-6 d-block text-center">
+      <div className="media block-6 d-block text-center">
         <div
-          class="icon d-flex justify-content-center align-items-center"
+          className="icon d-flex justify-content-center align-items-center"
         >
           <FontAwesomeIcon icon={this.getIcon(this.props.service.id)} size="2x" />
         </div>
-        <div class="media-body p-2 mt-3">
-          <h3 class="heading">{this.props.service.serviceName}</h3>
+        <div className="media-body p-2 mt-3">
+          <h3 className="heading">{this.props.service.serviceName}</h3>
           <p>
             {this.props.service.serviceDesciption}
           </p>

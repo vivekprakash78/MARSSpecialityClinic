@@ -1,5 +1,5 @@
 .jumbo-image {
-  background-image: url("../Image/Jumbotron/bg_2.jpg");
+  background-image: url("/Image/Jumbotron/bg_2.jpg");
   background-position: 50% -12px;
   background-size: cover;
   height: 500px;

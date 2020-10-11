@@ -7,9 +7,9 @@ class Service extends Component {
   render() {
     return (
 
-      <section class="services">
-        <div class="container">
-          <div class="row no-gutters">
+      <section className="services">
+        <div className="container">
+          <div className="row no-gutters">
             {servicesData.map((service) => {
               return (
                 <div className="col-md-3 d-flex align-self-stretch p-4 servicesCard" key={service.id}>

@@ -4,7 +4,7 @@ import "../../Asset/Style/Jumbotron.css";
 class Jumbotron extends Component {
   render() {
     return (
-      <div class="jumbo">
+      <div className="jumbo">
         <div className="jumbo-image">
 
         </div>
