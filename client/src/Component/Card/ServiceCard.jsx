@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBaby, faBrain, faBug, faHospitalUser, faProcedures } from "@fortawesome/free-solid-svg-icons";
+import { faBaby, faBrain, faBug, faProcedures, faVenusDouble } from "@fortawesome/free-solid-svg-icons";
 
 class Card extends Component {
   render() {
@@ -14,9 +14,13 @@ class Card extends Component {
         </div>
         <div className="media-body p-2 mt-3">
           <h3 className="heading">{this.props.service.serviceName}</h3>
-          <p>
-            {this.props.service.serviceDesciption}
-          </p>
+          <ul className="serviceList">
+            {this.props.service.serviceDesciption.map((medicalService) => {
+              return (
+                <li>{medicalService}</li>
+              );
+            })}
+          </ul>
         </div>
       </div>
     );
@@ -30,7 +34,7 @@ class Card extends Component {
       case 3:
         return faProcedures;
       case 4:
-        return faHospitalUser;
+        return faVenusDouble;
       default:
         return faBug;
     }

@@ -2,21 +2,20 @@
   {
     "id": 1,
     "serviceName": "Maternity & Child Care",
-    "serviceDesciption": ""
+    "serviceDesciption": ["Incubator & Phototherapy","Vaccination","Asthma Clinic","Nebulization"]
   },
   {
     "id": 2,
-    "serviceName": "Brain & Spine Surgery (Neuro)",
-    "serviceDesciption": ""
-  },
-  {
+    "serviceName": "Obstetrics & Gynaecology",
+    "serviceDesciption": ["Normal Delivery","Caesarean Section","Infertility Treatment","Laproscopic Gynae Sugery"]
+  }  
+  ,{
     "id": 3,
     "serviceName": "Laproscopic and Gastrosurgery",
-    "serviceDesciption": ""
-  },
-  {
+    "serviceDesciption": ["Laproscopic Gall Bladder, Appendix, Hernia Surgery","Piles, Fissure, Fistula Surgery by MIPH & Laser","CBD, Pancrease & Liver Surgery","G.I Cancer Surgery"]
+  },{
     "id": 4,
-    "serviceName": "Outdoor Patient Department",
-    "serviceDesciption": ""
+    "serviceName": "Brain & Spine Surgery (Neuro)",
+    "serviceDesciption": ["Head Injury", "Trauma ICU", "Spine Surgery", "Brain Tumor Surgery", "Shunt & MMC Surgery"]
   }
 ]

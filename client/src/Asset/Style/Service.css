@@ -73,3 +73,6 @@
 .media .ftco-icon span {
   color: #2f89fc;
 }
+ul.serviceList li {
+  text-align: left;
+}
