@@ -17,7 +17,7 @@ class Card extends Component {
           <ul className="serviceList">
             {this.props.service.serviceDesciption.map((medicalService) => {
               return (
-                <li>{medicalService}</li>
+                <li key={medicalService}>{medicalService}</li>
               );
             })}
           </ul>
