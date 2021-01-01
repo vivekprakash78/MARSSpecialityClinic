@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Madhu Priya",
+    "specialisation": "Consultant Paediatrician",
+    "degree": "MBBS, DCH, MD (BHU)",
+    "picture": "doctorFemale.png"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Anjali Prakash",
+    "specialisation": "Consultant Gynaecologists & Infertility Specialist",
+    "degree": "MBBS, DNB (OBG)",
+    "picture": "doctorFemale2.png"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Ranvijay Kumar",
+    "specialisation": "Advanced Laproscopic & Gastrosurgeon",
+    "degree": "MBBS, MS, FMAS, FIAGES",
+    "picture": "doctorMale2.png"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Sandeep Yadav",
+    "specialisation": "Consultant Neuro Surgeon",
+    "degree": "MBBS, MS (BHU), MCh (Neuro)",
+    "picture": "doctorMale.png"
+  }
+]

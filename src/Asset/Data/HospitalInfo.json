@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "infoName": "Call",
+    "infoValue": "+91 860 334 8924",
+    "infoLink": "tel: +918603348924"
+  },
+  {
+    "id": 2,
+    "infoName": "Location",
+    "infoValue": "Shaguna More, Patna",
+    "infoLink": "https://goo.gl/maps/LwKWLdL3whEqn8th6"
+  }
+]

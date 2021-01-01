@@ -1,0 +1,30 @@
+.jumbo-image {
+  background-image: url("/Image/Jumbotron/bg_2.jpg");
+  background-position: 50% -12px;
+  background-size: cover;
+  height: 500px;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+.jumbo-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-shadow: 0px 0px 50px #ffffff;
+}
+.jumbo-text .text {
+  color: #2f89fc;
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.jumbo-text .sub-text {
+  color: #000;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 500;
+}
